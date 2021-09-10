@@ -27,7 +27,6 @@ html{
 }
 .nav .logo{
   width: 25%;
-  float: left;
   padding: 0px 20px;
 }
 .nav .logo img{
@@ -37,7 +36,6 @@ html{
 
 }
 #header .nav .nav-side{
-  float: right;
   width: 75%;
 }
 #header ul {
@@ -149,14 +147,13 @@ html{
 
 @media (min-width: 1280px) {
   #header li {
-    float: right;
+    float: left;
   }
   #header li a {
     padding: 20px 30px;
   }
   #header .menu-list {
     clear: none;
-    float: right;
     max-height: none;
     width: 100%;
   }
