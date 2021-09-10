@@ -37,7 +37,7 @@ html{
 
 }
 #header .nav .nav-side{
-  float: left;
+  float: right;
   width: 75%;
 }
 #header ul {
