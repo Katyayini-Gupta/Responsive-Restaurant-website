@@ -175,7 +175,6 @@ html{
     background-size: cover;
     background-position: center;
     padding: 125px;
-    padding-top: 125px;
   }
   
   #home .home-content{
@@ -425,7 +424,7 @@ html{
 /* feedbacks section */
 #feedbacks{
   background: #e5e4e2;
-  padding: 80px;
+  padding: 100px;
   padding-top: 50px;
 }
 #feedbacks h2{
@@ -707,7 +706,6 @@ html{
 #menu .menu-tabs{
   width: 100%;
   text-align: center;
-  margin: 20px;
   margin-bottom: 30px;
 }
 #menu .menu-tabs .menu-tab-item{
@@ -801,7 +799,7 @@ color: black;
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 50px;
-  margin-left: 70px;
+  justify-content: space-around;
 }
 
 #popular .box-container .box{
