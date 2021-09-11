@@ -3,7 +3,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 125px;
 }
 #home .home-content{
     width: 100%;
@@ -112,6 +112,7 @@
 /* about us section */
 #about-us{
     padding: 50px;
+    padding-top: 125px;
 }
 #about-us .about{
     flex-direction: column;
@@ -137,6 +138,7 @@
 /* gallery section */
 #gallery{
     padding: 50px;
+    padding-top: 125px;
 }
 #gallery .box-container{
     margin-left: 0px;
@@ -148,6 +150,7 @@
 /*reservation section */
 #reservation{
     padding: 50px;
+    padding-top: 125px;
 }
 #reservation .container form{
     margin: 0px;
