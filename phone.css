@@ -3,7 +3,8 @@
 #home{
     display: flex;
     flex-direction: column;
-    padding: 125px;
+    padding: 100px;
+    padding-top: 125px;
 }
 #home .home-content{
     width: 100%;
@@ -111,7 +112,7 @@
 
 /* about us section */
 #about-us{
-    padding: 50px;
+    padding: 100px;
     padding-top: 125px;
 }
 #about-us .about{
@@ -137,7 +138,7 @@
 
 /* gallery section */
 #gallery{
-    padding: 50px;
+    padding: 100px;
     padding-top: 125px;
 }
 #gallery .box-container{
@@ -149,7 +150,7 @@
 
 /*reservation section */
 #reservation{
-    padding: 50px;
+    padding: 100px;
     padding-top: 125px;
 }
 #reservation .container form{
@@ -184,4 +185,25 @@
     margin: 0px;
     width: 80%;
     margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 712px) {
+    
+    #feedbacks .feedbacks-item{
+        justify-content: space-around;
+    }
+    #feedbacks .feedbacks-item .feed-item{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 500px)
+{
+    #home, #speciality, #steps, #feedbacks, #team, #order, #footer, #about-us, #popular, #menu, #gallery, #reservation{
+        width: 100%;
+    }
 }
